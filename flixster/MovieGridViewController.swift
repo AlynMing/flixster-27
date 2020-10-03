@@ -77,7 +77,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Sender is the actual movie cell that is going to be tapped
        
-        print("Loading up the deatils screen")
+      
         
         // Find the selected movie
         let cell = sender as! UICollectionViewCell
